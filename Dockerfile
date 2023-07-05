@@ -15,7 +15,6 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 COPY --from=builder /src/build/libs /app
-COPY --from=builder /src /src
 
 RUN ls -al
 
