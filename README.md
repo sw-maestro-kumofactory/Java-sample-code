@@ -1,1 +1,1 @@
-# Dockerfile-with-multi-stage-builds
+# Java sample code for Dockerfile multi-stage build
